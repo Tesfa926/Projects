@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App with sorting Algorithm</title>
+    <link rel="stylesheet" href="./stylel.css">
+</head>
+<body>
+     <!-- Task Input -->
+    <input id="taskName" placeholder="Enter your task..." type="text">
+    <select id="taskPriority">
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+    </select>
+    <input type="date" id="taskDueDate">
+    <button id="addTaskBtn">Add Task</button>
+    <div id="task-container">
+        <div class="task-item">
+            <span class="task-name">Example Task</span>
+            <span class="priority-label">High</span>
+            <span class="due-date">2025-02-10</span>
+            <button class="deleteTaskBtn">Remove</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
